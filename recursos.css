@@ -4,6 +4,14 @@
   display: none;
 }
 
+.titulo {
+  color: green;
+}
+
+.tituloH4 {
+  color: blue;
+}
+
 .boxPadrao {
   padding: 3%;
   width: 50%;
@@ -38,7 +46,7 @@
 
 .p-1 {
   padding: 0.4rem;
-  font-size:large;
+  font-size: large;
 }
 .p-2 {
   padding: 0.6rem;
