@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nosso Restaurante</title>
+  </head>
+  <!-- propriedade e valor -->
+  <style>
+    body {
+      width: 80%;
+      margin: auto;
+      font-size: 1.1em;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      line-height: 1.3em;
+      border: 1px dashed #ccc;
+      padding: 10px;
+    }
+    figure {
+      padding: 20px;
+    }
+    header * {
+      width: 90%;
+      font-size: 2em;
+      font-weight: 700;
+    }
+    header nav ul li {
+      font-size: 08px;
+    }
+    header img {
+      width: 10%;
+    }
+    select {
+      font-size: 0.88em;
+    }
+  </style>
+  <body>
+    <header>
+      <img
+        src="../images/warszawianka_Restaurant.svg"
+        alt="Garçom servindo"
+        width="30"
+      />
+      <span>Nosso restaurante</span>
+      <p></p>
+      <img src="../images/massa01.jpeg" alt="Massas" style="width: 20%" />
+      <nav>
+        <ul>
+          <li>
+            <a href="#sobre">Sobre nós</a> | <a href="#pratos">Pratos</a> |
+            <a href="#reservas">Faça sua reserva</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article id="sobre">
+          <h2>Sobre Nosso Compromisso</h2>
+          <p>
+            Lorem ipsum,
+            <b>dolor sit amet consectetur adipisicing</b> elit. Debitis
+            <strong>voluptatibus</strong> consequuntur nam velit a quis
+            suscipit<br />
+            voluptatem neque laborum repudiandae!
+          </p>
+          <img
+            width="40%"
+            title="Conheça nosso cardápio"
+            alt="Conheça nosso menu"
+            src="../images/ourMenu.jpeg"
+          />
+          <img
+            width="43%"
+            title="Conheça nosso cardápio"
+            alt="Conheça nosso menu"
+            src="../images/massa03.jpeg"
+          />
+          <p></p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            laboriosam minima officia fugit quidem saepe dicta quod, adipisci
+            nemo dolor perferendis qui nesciunt ab beatae at possimus non
+            explicabo expedita ducimus in enim cupiditate! Neque quo mollitia
+            laborum porro at. Hic, expedita labore temporibus molestiae
+            molestias, incidunt odio aspernatur voluptatum in earum ullam libero
+            eaque quod facere cumque at. Facere delectus dolor aperiam sapiente
+            reprehenderit adipisci error perferendis similique eos vitae tempore
+            culpa commodi eum, debitis repudiandae aut minima laudantium.
+            Voluptas quis soluta corporis, dicta assumenda ipsum quos?
+          </p>
+          <hr />
+        </article>
+
+        <article id="pratos">
+          <h2>Aprecie nossos pratos</h2>
+          <p>
+            Lorem ipsum,
+            <b>dolor sit amet consectetur adipisicing</b> elit. Debitis
+            <strong>voluptatibus</strong> consequuntur nam velit a quis suscipit
+            voluptatem neque laborum repudiandae!
+          </p>
+          <table>
+            <tr>
+              <td width="25%">
+                <img width="100%" src="../images/massa01.jpeg" alt="Massa 01" />
+              </td>
+              <td>
+                <h3>Massa 01</h3>
+                <p>R$ 80,00</p>
+                <p>No almoço</p>
+              </td>
+              <td width="25%">
+                <img width="100%" src="../images/massa02.jpeg" alt="Massa 02" />
+              </td>
+              <td>
+                <h3>Massa 02</h3>
+                <p>R$ 60,00</p>
+                <p>Almoço e Jantar</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h3>Massa 03</h3>
+                <p>R$ 80,00</p>
+                <p>Almoço e Jantar</p>
+              </td>
+              <td width="25%">
+                <img width="100%" src="../images/massa03.jpeg" alt="Massa 03" />
+              </td>
+              <td>
+                <h3>Massa 04</h3>
+                <p>R$ 75,00</p>
+                <p>No almoço</p>
+              </td>
+              <td width="25%">
+                <img width="100%" src="../images/massa04.jpeg" alt="Massa 04" />
+              </td>
+            </tr>
+          </table>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+            dolores culpa, recusandae quod excepturi fuga quam non adipisci
+            fugiat voluptates explicabo cum dicta, id beatae voluptatibus
+            officia sed ducimus aliquid hic consectetur delectus. Nam deleniti
+            velit tenetur vero voluptates fuga explicabo atque ipsum repudiandae
+            nostrum labore quas porro, magnam reprehenderit?
+          </p>
+        </article>
+
+        <article id="reservas">
+          <h2>Reserve nosso espaço para seu aniversário</h2>
+          <form action="" method="post" enctype="multipart/form-data">
+            <!-- <fieldset disabled> -->
+            <fieldset>
+              <legend>Preencha todos os campos</legend>
+              <ul>
+                <li>
+                  <label for="nome">Nome</label>
+                  <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    maxlength="30"
+                    size="50"
+                    autofocus
+                    placeholder="Seu nome completo"
+                    required
+                  />
+                </li>
+                <li>
+                  <label for="email">eMail</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Seu email mais usado"
+                    required
+                  />
+                </li>
+                <li>
+                  <label for="convidados">Número de Convidados</label>
+                  <input
+                    type="number"
+                    id="convidados"
+                    name="convidados"
+                    required
+                    min="1"
+                    max="10"
+                  />
+                </li>
+                <hr />
+                <li>
+                  <label for="entrada">Escolha sua entrada</label>
+                  <input list="entrada_opt" name="entrada" id="entrada" />
+                  <datalist id="entrada_opt">
+                    <option value="Caldo de mandioquinha"></option>
+                    <option value="Caprese no palito"></option>
+                    <option value="Pate de azeitonas"></option>
+                  </datalist>
+                </li>
+                <li>
+                  <label for="aniversariante"
+                    >Envie a foto do aniversariante</label
+                  ><br />
+                  <input
+                    type="file"
+                    id="aniversariante"
+                    name="aniversariante"
+                    accept="image/png"
+                  />
+                </li>
+                <li>
+                  <label for="tipo_comida">Cozinha</label>
+                  <select name="cozinha" id="cozinha">
+                    <option value="...">...</option>
+                    <option value="brasileira">Brasileira</option>
+                    <optgroup label="Brasileira">
+                      <option value="feijoada">Feijoada</option>
+                      <option value="viradoPaulista">Virado a Paulista</option>
+                    </optgroup>
+                    <option value="italiana">Italiana</option>
+                    <optgroup label="Italiana">
+                      <option value="lasanha">Lasanha</option>
+                      <option value="risoto">Risoto</option>
+                    </optgroup>
+                    <option value="francesa">Francesa</option>
+                  </select>
+                </li>
+                <li>
+                  <label for="data_niver">Data do aniversário</label>
+                  <input type="date" name="data_niver" id="data_niver" />
+                </li>
+                <li>
+                  <label for="cor_festa">Cor tema da festa</label>
+                  <input
+                    type="color"
+                    name="cor_festa"
+                    id="cor_festa"
+                    value="#ff00ff"
+                  />
+                </li>
+                <hr />
+                <li>
+                  <label for="servicos">Serviços Adicionais</label>
+                  <input
+                    style="accent-color: red"
+                    type="checkbox"
+                    name="servicos"
+                    id="musico"
+                  />Músico
+                  <input
+                    type="checkbox"
+                    name="servicos"
+                    id="danca_do_ventre"
+                  />Dança do Ventre
+                  <input type="checkbox" name="servicos" id="magico" />Mágico
+                </li>
+                <li>
+                  <label for="bolo>">Bolo do Aniversariante</label>
+                  <input type="radio" name="bolo" id="bolo_proprio" />Bolo
+                  próprio
+                  <input checked type="radio" name="bolo" id="bolo_nosso" />Bolo
+                  restaurante
+                </li>
+                <hr />
+                <li>
+                  <label for="obs">Observações</label><br />
+                  <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+                </li>
+                <li>
+                  <input
+                    type="image"
+                    src="../images/redButton.jpeg"
+                    width="50"
+                    value="Enviar a mensagem"
+                  />
+                  <!-- ou -->
+                  <!-- <input type="submit" value="Confirmar"> -->
+                  <!-- ou -->
+                  <!--  ou <button>Confirmar</button> -->
+                </li>
+              </ul>
+            </fieldset>
+          </form>
+        </article>
+        <article id="contato"></article>
+      </section>
+    </main>
+    <footer>
+      <table border="1" width="100%">
+        <tr>
+          <td width="50%">
+            <p>eMail: nossorestaurante@gmail.com</p>
+            <p>Telefones: 11 9999-9999</p>
+            <p>WhatsApp</p>
+          </td>
+          <td width="50%">
+            <form action="" method="post">
+              <fieldset>
+                <legend>O que podemos te ajudar hoje?</legend>
+                <ul>
+                  <li>
+                    <label for="nome_mensagem">Nome:</label>
+                    <input
+                      type="name"
+                      id="nome_mensagem"
+                      placeholder="Seu nome aqui"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <label for="email_mensagem">eMail:</label>
+                    <input
+                      type="email"
+                      id="email_mensagem"
+                      placeholder="Seu email aqui"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <label for="telefone_mensagem">eMail:</label>
+                    <input
+                      type="email"
+                      id="telefone_mensagem"
+                      placeholder="Seu telefone aqui"
+                      required
+                    />
+                  </li>
+                  <li><button>Enviar</button></li>
+                </ul>
+              </fieldset>
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p>&copy;2045 - Todos os direitos reservados</p>
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>

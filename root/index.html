@@ -1,0 +1,284 @@
+<!-- estrutura básica de um htm -->
+<!-- remover comentários é uma melhor prática -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <!-- cabeçalho -->
+
+  <head>
+    <title>HTML5 - Aulas Projeto Restaurante</title>
+    <meta charset="utf-8" />
+  </head>
+
+  <!-- propriedade e valor -->
+  <style>
+    body {
+      width: 80%;
+      margin: auto;
+      font-size: 1.1em;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      line-height: 1.3em;
+      border: 1px dashed #ccc;
+      padding: 10px;
+    }
+    figure {
+      padding: 20px;
+    }
+    header * {
+      width: 90%;
+      font-size: 2em;
+      font-weight: 700;
+    }
+    header img {
+      width: 10%;
+    }
+  </style>
+
+  <!-- conteúdo -->
+  <body>
+    <header>
+      <img width="10" src="images/warszawianka_Restaurant.svg" width="30" />
+      <span>Projeto Restaurante - |header|</span>
+    </header>
+    <hr />
+
+    <nav>
+      <span>Barra de Navegação - |nav|</span>
+      <br />
+      <a href="pages/sobre.html">Nosso restaurante</a> |
+      <a href="#carnes">Carnes Nobres</a> |
+      <a href="#massas">Massas Especiais</a> | <a href="#saladas">Saladas</a> |
+      <a href="#tabelas">Exemplo de Tabelas</a> |
+      <a target="_blank" href="https://www.google.com/search?q=night%20sky"
+        >Google</a
+      >
+    </nav>
+    <main>
+      <section>
+        <article>
+          <h2>Artigo 1</h2>
+          <p>
+            Lorem ipsum,
+            <b>dolor sit amet consectetur adipisicing</b> elit. Debitis
+            <strong>voluptatibus</strong> consequuntur nam velit a quis
+            suscipit<br />
+            voluptatem neque laborum repudiandae!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            impedit molestiae nihil eligendi maiores ratione aliquam
+            exercitationem ea in maxime odit quidem est esse blanditiis porro
+            quos earum delectus officiis, quas unde, quod quam repellendus
+            quisquam! Maiores fuga ipsum eos, nisi mollitia placeat facilis
+            dolorem eaque qui fugit sunt debitis velit error cumque? Sed ipsam
+            aliquam illum dicta iure perspiciatis. Asperiores quo facere
+            architecto ratione excepturi laudantium incidunt quaerat accusamus,
+            exercitationem repudiandae inventore nulla tempora modi iste placeat
+            illum dicta temporibus reiciendis aliquid! <br />Esse ad beatae et
+            autem! Cupiditate unde ut enim repudiandae numquam ea provident quod
+            labore odit eaque natus veritatis aliquid, perferendis qui corporis
+            consequuntur minima blanditiis ipsam quis porro eum odio, esse
+            dolorem! Quae aliquam ut temporibus dignissimos molestiae laudantium
+            quibusdam, perspiciatis possimus! Fugiat in doloremque reiciendis
+            quisquam repudiandae distinctio! Quae cumque minima obcaecati
+            officiis quo possimus sint ea aliquam, iure distinctio odio
+            necessitatibus veritatis accusantium rem maxime quasi corrupti
+            assumenda repellendus. <br />
+            Exercitationem optio odio magnam iure qui dolor enim facilis
+            officia. Accusantium dolores quisquam odio sequi obcaecati? Unde
+            dignissimos error, illum eligendi commodi nemo omnis natus vel
+            quaerat sed reiciendis, veniam illo temporibus ratione soluta?
+            Facere mollitia impedit suscipit a unde. Hic distinctio corporis
+            vitae tempora?
+          </p>
+          <!-- pode ser i, I, a, A, ou sem nada -->
+          <!-- start="4" para começar no 4 item -->
+          <h3>Nosso menu!</h3>
+          <figure style="background-color: bisque">
+            <h3>Frutas e Vegetais</h3>
+            <img width="450" src="images/frutas01.jpeg" />
+            <figcaption>Tela: Fotografia de Alex H. S.</figcaption>
+          </figure>
+
+          <blockquote>
+            <details>
+              <summary>
+                <b>Saiba mais sobre esta opção clicando em xpto</b>
+              </summary>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo,
+                nobis!
+              </p>
+              <ol type="i">
+                <li>Mamão</li>
+                <li>Banana</li>
+                <li>Abacate</li>
+                <li>Tomate</li>
+                <li>Alface</li>
+              </ol>
+              <img width="150" src="images/frutas02.jpeg" />
+              <img width="150" src="images/frutas03.jpeg" />
+            </details>
+          </blockquote>
+
+          <hr />
+
+          <ol type="i">
+            <li>Pastas</li>
+            <li>Carnes</li>
+            <li>lanches</li>
+            <li>Caldos</li>
+            <li>Saladas</li>
+            <li>Entradas</li>
+            <li>Bebidas</li>
+          </ol>
+          <hr />
+          <h3>Nossas opções!</h3>
+          <ul type="square">
+            <li>Pastas</li>
+            <li>Carnes</li>
+            <li>lanches</li>
+            <li>Caldos</li>
+            <li>Saladas</li>
+            <li>Entradas</li>
+            <li>Bebidas</li>
+          </ul>
+          <hr />
+          <pre>"Deus nao joga dados"
+                <small>Albert Einstein__</small>
+          </pre>
+          <h2>Artigo 2</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            <i>Debitis</i> voluptatibus <em>consequuntur</em> nam velit a quis
+            suscipit voluptatem neque laborum repudiandae!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            iure architecto suscipit! Debitis in molestiae hic nesciunt,
+            molestias blanditiis, et natus laudantium at, neque illum voluptas
+            voluptatum dolorem magni expedita consequuntur sapiente dolorum
+            nulla maxime placeat aliquid consequatur minus fuga incidunt.
+            Corrupti assumenda debitis porro vero voluptates, recusandae
+            eligendi quo dicta excepturi aspernatur quis ex, rerum aut. Quam,
+            obcaecati officiis facere iste voluptas ipsa laudantium.
+            <br />Facere aliquid, minus explicabo quas minima aut alias ipsa
+            vero ad illum consequatur. Earum, ipsam dolorum incidunt harum
+            distinctio nostrum nemo odit minus quos reprehenderit atque eius at
+            quas aspernatur voluptatem iure rerum eligendi magni enim pariatur
+            vel? Beatae, quae. Aut deleniti, in consequatur architecto ab libero
+            quasi accusamus, molestiae sit, natus dolorem sint esse. Asperiores,
+            exercitationem corporis labore ab officiis fugiat beatae! Explicabo,
+            unde.
+          </p>
+        </article>
+        <hr />
+        <article id="carnes">
+          <h2>Carnes</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            <i>Debitis</i> voluptatibus <em>consequuntur</em> nam velit a quis
+            suscipit voluptatem neque laborum repudiandae!
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            ducimus odit ratione commodi provident soluta quisquam nemo
+            voluptatum eius, eum aperiam perspiciatis ea sint, quibusdam alias
+            doloremque. Fuga neque aut quo vero soluta, ab voluptates aliquam,
+            voluptatem amet pariatur voluptate possimus odio harum eveniet quasi
+            quia ipsam iure. Distinctio, officiis nesciunt? Commodi asperiores
+            harum blanditiis inventore corrupti. <br />Accusamus et alias
+            ducimus dolorum iste, sit odit nulla at blanditiis facere ad velit
+            qui modi beatae assumenda aliquam dolores ex ipsam, error officiis,
+            autem reprehenderit? Ad obcaecati deserunt sunt ipsa minima nobis.
+            Soluta nesciunt sunt eum, ab illo provident ipsum repellat id
+            veritatis ratione beatae consequatur, minima possimus, totam sint
+            cupiditate deserunt nulla quos. Odit, deleniti aspernatur. Cumque
+            error, laudantium mollitia vero unde at quam dolore tenetur nihil
+            nostrum officiis eligendi, sapiente nobis facilis distinctio
+            blanditiis, optio delectus. Repudiandae nihil quod laborum, placeat
+            amet suscipit, earum reiciendis natus sunt voluptates minus quo?
+          </p>
+
+          <h3>Nossas opções!</h3>
+          <dl>
+            <dt>Pastas</dt>
+            <dd>Maminha na manteiga</dd>
+            <dd>Picanha maturada</dd>
+            <dd>Fraldinha</dd>
+          </dl>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos, optio eos, at inventore nobis consequuntur quos dolorum
+            eveniet ratione necessitatibus reiciendis veniam beatae ea cumque
+            illum? Saepe modi nemo quas deleniti ipsa? Nobis ullam mollitia
+            accusantium, molestiae velit exercitationem consequatur officia
+            alias beatae optio accusamus totam minus iure consequuntur delectus
+            inventore. Quasi facere labore voluptate minima iure voluptates
+            alias quis, aspernatur provident optio laborum? <br />Excepturi
+            sequi quod odit maiores ipsa eligendi architecto et aperiam iusto
+            atque illum, labore dicta doloribus molestiae mollitia id explicabo
+            vero nam ex? Nesciunt fuga aliquam optio suscipit accusantium maxime
+            fugiat perspiciatis nam, sapiente consequuntur nihil! Commodi,
+            voluptate? Dolore expedita impedit officia culpa iusto laboriosam
+            saepe soluta amet? Nulla sapiente, laudantium eum beatae praesentium
+            adipisci nobis?
+          </p>
+        </article>
+
+        <article id="tabelas">
+          <h3>Tabelas</h3>
+
+          <table style="border: 1px solid #000" width="60%" border="">
+            <caption>
+              <h3>Opções para almoço e jantar</h3>
+            </caption>
+            <tr>
+              <th rowspan="5">
+                <img src="images/ourMenu02.jpeg" alt="Menu simplificado" />
+              </th>
+              <th style="text-align: left" width="30%">Prato</th>
+              <th style="text-align: left" width="20%">Preço</th>
+              <th></th>
+            </tr>
+            <tr>
+              <td>Spaghetti</td>
+              <td>R$ 55,00</td>
+              <td>
+                <img src="images/massa01.jpeg" alt="Spaghetti" width="25%" />
+              </td>
+            </tr>
+            <tr>
+              <td>Tagliarini</td>
+              <td>R$ 65,00</td>
+              <td>
+                <img src="images/massa02.jpeg" alt="Tagliarini" width="25%" />
+              </td>
+            </tr>
+            <tr>
+              <td>Penne</td>
+              <td>R$ 65,00</td>
+              <td>
+                <img src="images/massa03.jpeg" alt="Penne" width="25%" />
+              </td>
+            </tr>
+            <tr>
+              <td>Combo Frutas</td>
+              <td>R$ 35,00</td>
+              <td>
+                <img src="images/frutas03.jpeg" alt="Frutas" width="25%" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="4">
+                Terças e quintas promoção de 10% em todos os pratos
+              </td>
+            </tr>
+          </table>
+        </article>
+      </section>
+    </main>
+    <hr />
+    <footer>&copy;2045 - Todos os direitos reservados</footer>
+  </body>
+</html>
