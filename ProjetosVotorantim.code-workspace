@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"name": "desafioJS01",
+			"path": "."
+		},
+		{
+			"path": "../Y5GL_INTEG_UNIC"
+		},
+		{
+			"path": "../Y5JS_INTEG_UNIC"
+		},
+		{
+			"path": "../cba-acessorh_contratacao-vue"
+		},
+		{
+			"path": "../js-acessorh_contratacao-vue"
+		},
+		{
+			"path": "../vsa-acessorh_contratacao-vue"
+		},
+		{
+			"path": "../ve-acessorh_contratacao-vue"
+		},
+		{
+			"path": "../vue-project01"
+		}
+	],
+	"settings": {}
+}
